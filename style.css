@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.buttons {
+  margin-top: 40px;
+  position: relative;
+  height: 200px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.yes-button {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+.no-button {
+  background-color: white;
+  color: #ff4d6d;
+  position: absolute;
+}
